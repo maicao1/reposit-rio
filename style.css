@@ -1,10 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body{
 
-background-color: aqua
+background-color: black;
+text-align: center;
+font-size: large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+align-self: center;
+color: #f6f6f6;
 
 
 }
-h1{
-    text-align: center;
+
+img{
+    image-rendering: auto;
+    image-resolution: 10;
     
+}
+button{
+    color: black;
+    size: 30px;
+
+}
+
+strong{
+    color: blueviolet;
 }
