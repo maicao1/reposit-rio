@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
 
 
@@ -8,17 +8,19 @@ body{
 
 background-color: black;
 text-align: center;
-font-size: large;
+
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-align-self: center;
+
 color: #f6f6f6;
 
 
 }
 
 img{
-    image-rendering: auto;
-    image-resolution: 10;
+
+  
+    width: 30%;
+ 
     
 }
 button{
@@ -29,4 +31,35 @@ button{
 
 strong{
     color: blueviolet;
+}
+main{
+    display: flex;
+
+}
+header, footer{
+    height: 150px;
+}
+p{
+    margin: 1px;
+    
+ 
+    color: cyan;
+}
+button{
+    background-color: brown;
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    border-color: blue;
+    margin: 25px 25px 0 0;
+}
+h2{
+    color: darkgreen;
+    size: 100px;
+    
+}
+a{
+color: aliceblue;
+font-size: 20px;
+text-decoration: none;
 }
